@@ -1,4 +1,4 @@
-- name: class 4
+name: class 4
 
 # Controls when the action will run. 
 on:
@@ -26,7 +26,7 @@ jobs:
       - name: Install nodejs
         uses: actions/setup-node@v2-beta
         with:
-          node-version: 12
+          node-version: 10
       
       - name: install yarn
         uses: borales/actions-yarn@v2.0.0
