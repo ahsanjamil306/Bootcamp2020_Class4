@@ -1,4 +1,6 @@
-name: class 4
+# This is a basic workflow to help you get started with Actions
+
+name: Class 3
 
 # Controls when the action will run. 
 on:
@@ -26,7 +28,7 @@ jobs:
       - name: Install nodejs
         uses: actions/setup-node@v2-beta
         with:
-          node-version: 10
+          node-version: 12
       
       - name: install yarn
         uses: borales/actions-yarn@v2.0.0
