@@ -10,5 +10,19 @@
 
 .button1{
 
-  color: blueviolet;
+  color: green;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  background: yellow;
+}
+
+.button2{
+
+  color: green;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  background: yellow;
+
 }
