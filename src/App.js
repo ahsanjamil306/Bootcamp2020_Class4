@@ -13,7 +13,7 @@ export default function App() {
             <h1>Goooooooood  {isMorning ? 'Morning' : 'Night'}</h1>
 
             <Message counter={count}/>
-        <button onClick={()=> setCount(++count)}>Update Counter</button>
+        <button className="button1" onClick={()=> setCount(++count)}>Update Counter</button>
         <button onClick={()=> setDay(!isMorning)}> Update day </button>
         </div>
     );
