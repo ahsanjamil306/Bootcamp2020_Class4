@@ -14,7 +14,7 @@ export default function App() {
 
             <Message counter={count}/>
         <button className="button1" onClick={()=> setCount(++count)}>Update Counter</button>
-        <button onClick={()=> setDay(!isMorning)}> Update day </button>
+        <button className="button2" onClick={()=> setDay(!isMorning)}> Update day </button>
         </div>
     );
   
